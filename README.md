@@ -9,11 +9,19 @@ An enterprise-grade End-to-End (E2E) UI testing framework built with Playwright 
 - **Resilient Locators:** Utilizes strict web-first assertions and user-facing locators (`getByRole`, `getByLabel`, `getByTestId`), eliminating arbitrary sleeps.
 
 ## Features Automated
-1. **End-to-End Checkout:** Add coffee $\rightarrow$ Handle promo popup $\rightarrow$ Checkout $\rightarrow$ Submit payment details $\rightarrow$ Verify success message.
+1. **End-to-End Checkout:** Add coffee → Handle promo popup → Checkout → Submit payment details → Verify success message.
 2. **Promo Popup Logic:** Verifies dynamic promo triggers on every 3rd item (milestones 3 and 6), with test scenarios for both accepting and declining the promotion.
-3. **Bonus Features:** 
+3. **Special Features:** 
    - Double-clicking coffee titles to trigger Chinese translation.
    - Right-clicking coffee cups to open custom add-to-cart dialogs.
+
+## Test Execution Evidence
+
+### Local Playwright Test Runner (7/7 Passed)
+![Playwright UI Runner Pass](./screenshots/playwright-ui-pass.png)
+
+### GitHub Actions CI/CD Pipeline Execution
+![GitHub Actions Pass](./screenshots/github-actions-pass.png)
 
 ## Getting Started & Execution
 
